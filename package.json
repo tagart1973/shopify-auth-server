@@ -1,13 +1,14 @@
 {
   "name": "shopify-auth-server",
-  "private": true,
+  "version": "1.0.0",
   "type": "module",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "node-fetch": "^3.3.2"
-  },
+  "engines": { "node": "20.x" },
   "scripts": {
     "start": "node auth-server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^3.3.2"
   }
 }
